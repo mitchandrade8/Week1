@@ -3,6 +3,12 @@
 
 int main(void) 
 {
+
+    for (int i = 0; i < 3; i++)
+    {
+        printf("meow\n");
+    }
+
     // would be better to add a loop
 
     // First Version:
@@ -14,6 +20,7 @@ int main(void)
 
    // Refactored Version with While loop:
 
+    /*
    int counter = 3;
    while (counter > 0)
    {
@@ -21,18 +28,28 @@ int main(void)
     counter = counter - 1;
    }
 
-   int i = 3;
-   while (i > 0) 
+   int j = 3;
+   while (j > 0)
    {
     printf("moew\n");
-    i--;
+    j--;
    }
 
-   int i = 1;
-   while (i <= 3)
+   int z = 1;
+   while (z <= 3)
+   {
+    printf("meow\n");
+    z++;
+   }
+
+   int i = 0;
+   while (i < 3)
    {
     printf("meow\n");
     i++;
    }
+   */
+
+
 
 }
